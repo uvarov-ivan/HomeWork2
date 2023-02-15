@@ -7,15 +7,16 @@ int Prompt(string msg)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int num = Prompt("Введите трёхзначное число  :");
+int num = Prompt("Введите трёхзначное число");
 int secondDigit = 0;
-if (num <100 || num > 999)
+
+if (num < 100 || num > 999)
 {
     System.Console.WriteLine($" Число {num} не трёхзначное!!!");
 }
 else
 {
-secondDigit = (num / 10) % 10;
-System.Console.WriteLine($"Второй цифрой числа {num} является {secondDigit}");
+    secondDigit = (num / 10) % 10;
+    System.Console.WriteLine($"Второй цифрой числа {num} является {secondDigit}");
 }
 
