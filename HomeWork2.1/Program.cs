@@ -18,7 +18,7 @@ else
 {
     while (num > 999)
     {
-        num /=10;
+        num /= 10;
     }
     System.Console.WriteLine($"Второй цифрой числа {numRef} является {num % 10}");
 }

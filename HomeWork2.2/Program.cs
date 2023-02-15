@@ -12,7 +12,7 @@ if (num > 0 && num < 6)
 {
     System.Console.WriteLine($"День недели, который обозначается цифрой {num}, не является выходным.");
 }
-else if(num == 6 || num == 7)
+else if (num == 6 || num == 7)
 {
     System.Console.WriteLine($"День недели, который обозначается цифрой {num}, является выходным.");
 }
